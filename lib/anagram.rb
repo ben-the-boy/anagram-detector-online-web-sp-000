@@ -11,6 +11,7 @@ class Anagram
     possible_anagrams.each do |word|
       binding.pry 
       word.split("").sort 
+    end
   end
     
   
