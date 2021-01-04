@@ -14,6 +14,7 @@ class Anagram
       if sorted_word == @word.split("").sort 
         word 
       end
+      word
     end
   end
     
