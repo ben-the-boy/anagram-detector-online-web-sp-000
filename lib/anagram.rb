@@ -12,6 +12,7 @@ class Anagram
       sorted_word = word.split("").sort
       if sorted_word == @word.split("").sort 
         word 
+      end
     end
   end
     
